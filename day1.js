@@ -1,3 +1,38 @@
+console.log('Constant Variable')
+{
+    const v1=20;
+    console.log(v1)
+    {
+        console.log(v1)
+        const v2=30
+        console.log(v2)
+    }
+    console.log(v1)
+}
+console.log('\n\nLet Variable')
+{
+    let v1=20;
+    console.log(v1)
+    {
+        console.log(v1)
+        let v2=30
+        console.log(v2)
+    }
+    console.log(v1)
+}
+console.log('\n\nVar Variable')
+{
+    var v1=20;
+    var v1=10
+    console.log(v1)
+    {
+        console.log(v1)
+        var v1=30
+        console.log(v1)
+    }
+    console.log(v1)
+    console.log(v1)
+}
  console.log("Constant Variable")
 {
      const v1= 'Zeeshan'
