@@ -106,3 +106,25 @@ switch(cgpa){
 var array = [1,2,3,"Zeeshan",5]
 
 console.log(array)
+
+console.log("Function Practice")
+
+function square(p1){
+    console.log(p1*p1)
+
+}
+square(2)
+
+const Name = (p1,p2)=>{
+    const fullName=p1+p2
+    console.log(fullName)
+}
+Name('Zeeshan',' Naseeb');
+(function(){
+    console.log('This is IIFE Function')
+})();
+
+const F1 = (p1='No',p2='Name')=>{
+    console.log(p1,p2)
+}
+F1('Zeeshan','Naseeb');
